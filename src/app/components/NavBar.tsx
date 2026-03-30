@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu - RIGHT SIDE */}
-        <ul className="hidden md:flex items-center gap-8 text-sm font-light ml-auto">
+        <ul className="hidden md:flex items-center gap-8 text-sm font-medium ml-auto">
           {links.map((link) => (
             <li key={link.name}>
               <a
